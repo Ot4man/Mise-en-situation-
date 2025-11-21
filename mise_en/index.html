@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div id="employees-container">
+            <table   id="employees-table" class="hidden">
+                <button id="affichebtn" class="affichebtn bg-green-500">affichedata</button>
+                <button id="deletbtn" class="deletbtn bg-red-500"> Masquer</button>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Département</th>
+                        <th>Poste</th>
+                        <th>Salaire</th>
+                        <th>age</th>
+                        <th>department</th>
+                        <th>position</th>
+                        <th>skills</th>
+                        <th>joinDate</th>
+                        <th>email</th>
+                        <th>projects</th>
+                        <th>isActive</th>
+                        <th>languages</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="employees-tbody">
+                    <!-- Les employés seront insérés ici dynamiquement -->
+                </tbody>
+            </table>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
